@@ -1,6 +1,8 @@
 #Custom
 output
 pelicanconf_local.py
+BAK/
+themes/
 
 #Python
 *.py[cod]
