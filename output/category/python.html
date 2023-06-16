@@ -6,14 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="" />
+  <meta name="robots" content="index, follow" />
 
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
 
+    <link id="dark-theme-style" rel="stylesheet" type="text/css"
+          media="(prefers-color-scheme: dark)"
+    href="/theme/stylesheet/dark-theme.min.css">
 
+    <link id="pygments-dark-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: dark)"
+          href="/theme/pygments/monokai.min.css">
     <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+              media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
           href="/theme/pygments/github.min.css">
 
 
@@ -44,11 +51,11 @@
   <meta property="og:locale" content="en_US"/>
   <meta property="og:url" content=""/>
 
-  <title>dln-dev project blog &ndash; Tag python</title>
+  <title>dln-dev project blog &ndash; Category Python</title>
 
 
 </head>
-<body class="light-theme">
+<body >
 
 <aside>
   <div>
@@ -84,17 +91,24 @@
 
     <ul class="social">
       <li>
-        <a class="sc-You can add links in your config file"
-           href="#"
+        <a class="sc-linkedin"
+           href="https://www.linkedin.com/in/alexandrevicenzi/en"
            target="_blank">
-          <i class="fa-brands fa-You can add links in your config file"></i>
+          <i class="fa-brands fa-linkedin"></i>
         </a>
       </li>
       <li>
-        <a class="sc-Another social link"
-           href="#"
+        <a class="sc-github"
+           href="https://github.com/alexandrevicenzi"
            target="_blank">
-          <i class="fa-brands fa-Another social link"></i>
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-twitter"
+           href="https://twitter.com/alxvicenzi"
+           target="_blank">
+          <i class="fa-brands fa-twitter"></i>
         </a>
       </li>
     </ul>
@@ -103,24 +117,33 @@
 </aside>
   <main>
 
+<nav>
+  <a href="/">Home</a>
+
+  <a href="/archives.html">Archives</a>
+  <a href="/categories.html">Categories</a>
+  <a href="/tags.html">Tags</a>
+
+
+</nav>
 
 
 
 <article>
   <header>
-    <h2><a href="/helloworld.html#helloworld">Test Post</a></h2>
+    <h2><a href="/helloworld2.html#helloworld2">Test Post</a></h2>
     <p>
       Posted on Mi 14 Juni 2023 in <a href="/category/python.html">Python</a>
 
           &#8226; Tagged with
-              <a href="/tag/python.html">python</a>,              <a href="/tag/quantumcomputing.html">quantumcomputing</a>,              <a href="/tag/machinelearning.html">machinelearning</a>
+              <a href="/tag/quantumcomputing.html">quantumcomputing</a>,              <a href="/tag/machinelearning.html">machinelearning</a>
     </p>
   </header>
   <div>
-      <div><p>Just a quick test to see what this is all about</p></div>
+      <div><p>what is this all about</p></div>
         <br>
         <a class="btn"
-           href="/helloworld.html#helloworld">
+           href="/helloworld2.html#helloworld2">
           Continue reading
         </a>
   </div>
@@ -132,9 +155,30 @@
 
 
 <footer>
-<p>&copy;  </p>
+<p>
+  &copy; 2023  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US" target="_blank">Creative Commons Attribution-ShareAlike</a>
+</p>
 <p>
 Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="/theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
 </p></footer>  </main>
 
 <script type="application/ld+json">
